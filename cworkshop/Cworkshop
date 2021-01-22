@@ -26,7 +26,6 @@ int main()
 
     printf("nom : %s prenom : %s age : %d sexe : %s numero de telephone : %d", nom, prenom, age, sexe, num);
 
-
     return 0;
 }
               #2
