@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ char name[7],lastname[12],sex[8];
+   int age[3],phonenumber[10];
+    printf("please inter name:\n");
+    scanf("%s",&name);
+    printf("please inter lastname:\n");
+    scanf("%s",&lastname);
+    printf("please inter age:\n");
+    scanf("%d",&age);
+    printf("please inter phonenumber:\n");
+    scanf("%d",&phonenumber);
+    printf("Name:%s\n lastname:%s\n age:%d\n phonenumber:%d\n",name,lastname,age,phonenumber);
+
+
+    return 0;
+}
